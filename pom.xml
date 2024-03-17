@@ -29,11 +29,12 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/abhinay5993/java-for-testers.git</connection>
-		<developerConnection>scm:git:https://github.com/abhinay5993/java-for-testers.git</developerConnection>
+		<developerConnection>
+			scm:git:https://github.com/abhinay5993/java-for-testers.git</developerConnection>
 		<url>https://github.com/abhinay5993/java-for-testers</url>
 		<tag>java-for-SDET-autodeployed-v</tag>
 	</scm>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -55,8 +56,7 @@
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.1.0</version>
-			<scope>test</scope>
+			<version>3.23.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hamcrest</groupId>
@@ -119,11 +119,11 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			 <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.0-M1</version>
-            </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.0.0-M1</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>

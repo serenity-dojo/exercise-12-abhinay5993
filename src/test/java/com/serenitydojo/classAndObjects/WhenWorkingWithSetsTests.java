@@ -1,6 +1,5 @@
 package com.serenitydojo.classAndObjects;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.StrictAssertions.assertThat;
 import java.util.HashSet;
 import java.util.Set;
 import org.testng.annotations.Test;

@@ -1,5 +1,5 @@
 package com.serenitydojo.checks;
-import static org.assertj.core.api.StrictAssertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import org.testng.annotations.Test;

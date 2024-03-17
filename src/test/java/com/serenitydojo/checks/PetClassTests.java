@@ -1,5 +1,5 @@
 package com.serenitydojo.checks;
-import static org.assertj.core.api.StrictAssertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import org.testng.annotations.Test;
 
 public class PetClassTests {
